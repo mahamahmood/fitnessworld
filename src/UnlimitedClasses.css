@@ -1,0 +1,70 @@
+.classes-container {
+    max-width: 75%;
+    text-align: left;
+    
+}
+img {
+    width: 200px;
+    height: 200px;
+}
+.line {
+    border-bottom: 1px solid rgb(184, 184, 184);
+    padding: 0px;
+    margin: 15px auto;
+    width: 50%;
+}
+
+
+.form-container {
+    width: 45vw;
+    height: auto;
+    margin: 5px auto;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #ddd,
+                -1px -1px 10px #ddd,
+                 1px -1px 10px #ddd,
+                -1px 1px 10px #ddd;
+    font-size: 1.1em;
+}
+.form{
+    width: 100%;
+    background: rgb(245, 245, 245);
+    border-radius: 0 10px 10px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.h1-form{
+    font-size: 2em;
+    border-bottom: 1.5px solid;
+    padding-bottom: 10px;
+}
+fieldset{
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+}
+legend{
+    padding: 0px 10px;
+}
+label{
+    display: block;
+}
+.form-input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 5px;
+    background: rgb(245, 245, 245);
+}
+.form-input:focus{
+    outline: 0;
+    border: 1px solid;
+}
+.form-btn{
+    margin-top: 35px;
+}
