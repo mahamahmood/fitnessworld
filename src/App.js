@@ -10,6 +10,12 @@ function App() {
   // ROUTES ================================== //
   const routes = [
     {
+      path: "/",
+      exact: true,
+      component: UnlimitedClasses,
+      key: "default"
+    },
+    {
       path: "/classes",
       component: UnlimitedClasses,
       key: "classes",

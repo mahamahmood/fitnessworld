@@ -14,9 +14,9 @@ img {
     width: 50%;
 }
 
-
+/* Trainin Sessions */
 .form-container {
-    width: 45vw;
+    width: 600px;
     height: auto;
     margin: 5px auto;
     display: flex;
@@ -25,11 +25,12 @@ img {
                 -1px -1px 10px #ddd,
                  1px -1px 10px #ddd,
                 -1px 1px 10px #ddd;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
+    margin-bottom: 80px;
 }
 .form{
     width: 100%;
-    background: rgb(245, 245, 245);
+    background: rgba(255, 255, 255, .8);
     border-radius: 0 10px 10px 0;
     padding: 15px;
     box-sizing: border-box;
@@ -67,4 +68,8 @@ label{
 }
 .form-btn{
     margin-top: 35px;
+    padding-bottom: 40px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
 }

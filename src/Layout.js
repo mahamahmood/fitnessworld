@@ -27,7 +27,7 @@ function Layout(props) {
                         <a className='itemText' href='/dashboard'>Dashboard</a>
                     </div>
                     <div className='navItem'>
-                        <a className='itemText' href='/login'>Login</a>
+                        <a className='itemText' href='/login'>Log In</a>
                     </div>
                 </div>
             </div>
